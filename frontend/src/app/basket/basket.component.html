@@ -1,0 +1,6 @@
+<div *ngIf="books.length > 0">
+  <h3>Selected Books</h3>
+  <ul>
+    <li *ngFor="let book of books">{{ book.title }} by {{ book.name }}</li>
+  </ul>
+</div>
